@@ -21,6 +21,7 @@ import {
   Sparkles
 } from "lucide-react"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 // Light mode custom icons
 function LineGraph({ color = "#2563eb" }: { color?: string }) {
@@ -426,7 +427,7 @@ export default function HomePage() {
             <div className="w-full h-full bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center rounded-xl">
               <div className="text-center">
                                <Image src='/dash.png' alt='dashboard' fill />
-
+ </div>
             </div>
           </motion.div>
         </div>
