@@ -425,10 +425,8 @@ export default function HomePage() {
             {/* Placeholder for CRM dashboard image */}
             <div className="w-full h-full bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center rounded-xl">
               <div className="text-center">
-                <Sparkles className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-                <p className="text-blue-800 text-lg font-semibold">CRM Dashboard Preview</p>
-                <p className="text-blue-600 text-sm">Customer Segmentation • Campaign Analytics • AI Insights</p>
-              </div>
+                               <Image src='/dash.png' alt='dashboard' fill />
+
             </div>
           </motion.div>
         </div>
